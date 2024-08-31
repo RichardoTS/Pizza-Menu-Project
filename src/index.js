@@ -19,10 +19,11 @@ function App() {
 function Header() {
   // const style = { color: "red", fontSize: "48px", textTransform: "uppercase" };
   const style = {};
+
   return (
-    <div className="header">
+    <header className="header">
       <h1 style={style}>Fast React Pizza Co.</h1>
-    </div>
+    </header>
   );
 }
 

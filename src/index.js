@@ -4,6 +4,7 @@ import "./index.css";
 
 // Modules
 import Menu from "./menu";
+import Footer from "./footer";
 
 function App() {
   return (
@@ -22,22 +23,6 @@ function Header() {
     <div className="header">
       <h1 style={style}>Fast React Pizza Co.</h1>
     </div>
-  );
-}
-
-function Footer() {
-  const hour = new Date().getHours();
-  const openHour = 12;
-  const closeHour = 22;
-
-  //   hour >= openHour && hour <= closeHour
-  //     ? alert("We're currently open!")
-  //     : alert("Sorry we're close")
-
-  return (
-    <footer className="footer">
-      {new Date().toLocaleTimeString()}. We're currently open!
-    </footer>
   );
 }
 

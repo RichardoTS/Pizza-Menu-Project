@@ -11,6 +11,6 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## First React Project from an Udemy couse, taught by Jonas Schmedtmann.
+## First React Project from an Udemy course, taught by Jonas Schmedtmann.
 
 ![alt text](image.png)
